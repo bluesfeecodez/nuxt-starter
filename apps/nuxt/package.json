@@ -11,7 +11,8 @@
     "lint": "eslint . --fix",
     "lint:check": "eslint .",
     "typecheck": "nuxt typecheck",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:e2e": "vitest run --config vitest.e2e.config.ts"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.11.3",
@@ -23,6 +24,9 @@
   "devDependencies": {
     "@nuxt/test-utils": "^4.0.3",
     "@repo/eslint-config": "workspace:*",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^20.0.11",
     "@repo/tsconfig": "workspace:*",
     "eslint": "^10.3.0",
     "typescript": "^6.0.3",
