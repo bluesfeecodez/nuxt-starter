@@ -12,21 +12,19 @@
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
-    "vue": "^3.5.0"
+    "vue": "^3.5.34"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/tsconfig": "workspace:*",
-    "@storybook/addon-essentials": "^8.6.0",
-    "@storybook/addon-links": "^8.6.0",
-    "@storybook/blocks": "^8.6.0",
-    "@storybook/vue3": "^8.6.0",
-    "@storybook/vue3-vite": "^8.6.0",
-    "@vitejs/plugin-vue": "^5.0.0",
-    "eslint": "^9.0.0",
-    "storybook": "^8.6.0",
-    "typescript": "^5.5.3",
-    "vite": "^6.0.0",
-    "vue-tsc": "^2.0.0"
+    "@storybook/addon-links": "^10.3.6",
+    "@storybook/vue3": "^10.3.6",
+    "@storybook/vue3-vite": "^10.3.6",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "eslint": "^10.3.0",
+    "storybook": "^10.3.6",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.12",
+    "vue-tsc": "^3.2.8"
   }
 }
