@@ -1,0 +1,11 @@
+node_modules/
+.turbo/
+dist/
+.nuxt/
+.output/
+coverage/
+storybook-static/
+*.local
+.env
+.env.*
+!.env.example

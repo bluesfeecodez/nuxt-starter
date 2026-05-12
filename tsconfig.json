@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "files": [],
+  "references": [
+    { "path": "apps/nuxt" },
+    { "path": "apps/api" },
+    { "path": "apps/storybook" },
+    { "path": "packages/tsconfig" },
+    { "path": "packages/ui" }
+  ]
+}

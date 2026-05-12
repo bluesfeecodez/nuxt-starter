@@ -1,0 +1,32 @@
+{
+  "name": "storybook",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "storybook dev --port 6006",
+    "build": "storybook build",
+    "lint": "eslint . --fix",
+    "lint:check": "eslint .",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@repo/ui": "workspace:*",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/tsconfig": "workspace:*",
+    "@storybook/addon-essentials": "^8.6.0",
+    "@storybook/addon-links": "^8.6.0",
+    "@storybook/blocks": "^8.6.0",
+    "@storybook/vue3": "^8.6.0",
+    "@storybook/vue3-vite": "^8.6.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "eslint": "^9.0.0",
+    "storybook": "^8.6.0",
+    "typescript": "^5.5.3",
+    "vite": "^6.0.0",
+    "vue-tsc": "^2.0.0"
+  }
+}

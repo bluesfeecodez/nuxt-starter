@@ -1,0 +1,5 @@
+{
+  "extends": "@repo/tsconfig/vue.json",
+  "include": ["**/*.ts", "**/*.vue", ".nuxt/nuxt.d.ts"],
+  "exclude": ["node_modules", "dist", ".output"]
+}

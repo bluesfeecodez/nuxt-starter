@@ -1,0 +1,32 @@
+{
+  "name": "nuxt",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 3001",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "eslint . --fix",
+    "lint:check": "eslint .",
+    "typecheck": "nuxt typecheck",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.10.0",
+    "@repo/ui": "workspace:*",
+    "nuxt": "^3.16.0",
+    "pinia": "^3.0.1",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.16.0",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/tsconfig": "workspace:*",
+    "eslint": "^9.0.0",
+    "typescript": "^5.5.3",
+    "vitest": "^3.2.0",
+    "vue-tsc": "^2.0.0"
+  }
+}
